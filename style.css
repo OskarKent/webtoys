@@ -1,6 +1,7 @@
 body {
 	margin: 0px;
 	text-align: center;
+    background: linear-gradient(to right, #00fffd, #e540ff);
 }
 
 a {
@@ -56,6 +57,7 @@ a {
 
 
 #see-all {
+	margin-top: 70px;
 	margin-bottom: -80px;
 	border-bottom: 5px dashed #7c00ff;
 	background: linear-gradient(to right, #00fffd, #e540ff);

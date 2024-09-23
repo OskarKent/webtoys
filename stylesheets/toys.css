@@ -11,6 +11,7 @@ header {
 
 a {
 	text-decoration: none;
+	color: blue;
 }
 
 .toy {
@@ -24,8 +25,16 @@ a {
 	background: linear-gradient(#00fffd, #00ff00);
 }
 
+#now {
+	border: 5px dotted #08a0f7;
+}
+
 #nav {
+	text-align: center;
 	position: sticky;
+	display: grid;
+	grid-template-columns: 4fr 4fr 4fr 4fr;
+	grid-template-rows: 2fr 2fr;
 	top: 0px;
 	width: 100vw;
 	margin-bottom: 10px;
@@ -57,18 +66,12 @@ a {
     #toys-container {
         grid-template-columns: 1fr;
     }
-    #nav {
-    	height: 70px;
-    }
 }
 
 @media (max-width: 350px) {
 	.toy {
 		width: 250px;
 		height: 260px;
-	}
-	#nav {
-		height: 100px;
 	}
 }
 

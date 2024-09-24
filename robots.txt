@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /https://robkent.github.io/webtoys/index.html
+Disallow: /
 
 Sitemap: https://robkent.github.io/sitemap.xml

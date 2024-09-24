@@ -1,4 +1,6 @@
 body {
+	text-align: center;
+	color: aqua;
 	margin: 0px;
     background: linear-gradient(to right, #00fffd, #e540ff);
 }
@@ -6,23 +8,31 @@ body {
 header {
 	text-align: center;
 	font-size: 300%;
-	color: aqua;
 }
 
 a {
 	text-decoration: none;
-	color: blue;
+	color: #4474ff;
 }
 
 .toy {
-	margin: 0 auto;
+	/*google fonts*/
+	font-family: "Nunito", "Roboto", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 1000;
+	font-style: normal;
+
+	margin: 30px;
+	animation: float 6s infinite;
 	border: 2px solid aqua;
 	border-radius: 40px;
-	font-size: 300%;
-	color: #4040ff;
 	width: 300px;
 	height: 325px;
 	background: linear-gradient(#00fffd, #00ff00);
+}
+
+.toy h2{
+	font-size: 250%;
 }
 
 #now {
@@ -62,7 +72,7 @@ a {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     #toys-container {
         grid-template-columns: 1fr;
     }
@@ -75,15 +85,11 @@ a {
 	}
 }
 
-@media (max-width: 270px) {
-	.toy {
-		font-size: 150%;
-		height: 150px;
-		width: 150px;
-	}
+@keyframes float {
+	0%{	box-shadow: 10px 3px 5px #60c5ff;}
+	50%{box-shadow: 10px 30px 20px #60c5ff;}
+	100%{box-shadow: 10px 3px 5px #60c5ff;}
 }
-
-
 
 
 

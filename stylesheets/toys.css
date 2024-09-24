@@ -23,12 +23,16 @@ a {
 	font-style: normal;
 
 	margin: 30px;
-	animation: float 6s infinite;
+	box-shadow: 5px 10px 20px #1275ad;
 	border: 2px solid aqua;
 	border-radius: 40px;
 	width: 300px;
 	height: 325px;
 	background: linear-gradient(#00fffd, #00ff00);
+}
+
+.toy:hover {
+	box-shadow: 5px 10px 5px #093b57;
 }
 
 .toy h2{
@@ -83,12 +87,6 @@ a {
 		width: 250px;
 		height: 260px;
 	}
-}
-
-@keyframes float {
-	0%{	box-shadow: 10px 3px 5px #60c5ff;}
-	50%{box-shadow: 10px 30px 20px #60c5ff;}
-	100%{box-shadow: 10px 3px 5px #60c5ff;}
 }
 
 

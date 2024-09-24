@@ -8,14 +8,24 @@
 
 
 <url>
-  <loc>https://robkent.github.io/webtoys/</loc>
-  <lastmod>2024-09-22T18:37:34+00:00</lastmod>
+  <loc>https://oskarkent.github.io/webtoys/</loc>
+  <lastmod>2024-09-23T19:49:27+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://robkent.github.io/webtoys/toys.html</loc>
-  <lastmod>2024-09-22T18:37:34+00:00</lastmod>
+  <loc>https://oskarkent.github.io/webtoys/toys.html</loc>
+  <lastmod>2024-09-23T19:49:27+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://oskarkent.github.io/webtoys/index.html</loc>
+  <lastmod>2024-09-23T19:49:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://oskarkent.github.io/webtoys/squish%20toys.html</loc>
+  <lastmod>2024-09-23T19:49:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 

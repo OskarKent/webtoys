@@ -6,18 +6,31 @@ body {
 
 a {
 	text-decoration: none;
-	color: white;
+	color: #4474ff;
 }
 
 .toy {
-	margin: 0 auto;
+	/*google fonts*/
+	font-family: "Nunito", "Roboto", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 1000;
+	font-style: normal;
+
+	margin: 30px;
+	box-shadow: 5px 10px 20px #1275ad;
 	border: 2px solid aqua;
 	border-radius: 40px;
-	font-size: 300%;
-	color: #4040ff;
 	width: 300px;
 	height: 325px;
 	background: linear-gradient(#00fffd, #00ff00);
+}
+
+.toy:hover {
+	box-shadow: 5px 10px 5px #093b57;
+}
+
+.toy h2{
+	font-size: 250%;
 }
 
 .Q-A {
@@ -33,7 +46,7 @@ a {
 	justify-content: center;
 	flex-direction: column;
 	width: 100vw;
-	height: 50vh;
+	height: auto;
 	background: radial-gradient(#ffbf00, #00fffd);
 	color: #60c5ff;
 	text-shadow: 5px 5px 5px #00fffd;

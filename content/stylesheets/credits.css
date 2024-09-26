@@ -1,0 +1,28 @@
+body {
+	color: #ffffe0;
+	background: linear-gradient(#6a0dad, #ff00ff);
+	text-align: center;
+	height: 100vh;
+}
+
+h1 {
+	font-size: 500%;
+}
+
+h2 {
+	color: aqua;
+}
+
+a {
+	text-decoration: none;
+	color: #ffcf3f;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+summary {
+	font-size: 200%;
+	cursor: pointer;
+}

@@ -6,7 +6,16 @@ body {
 
 a {
 	text-decoration: none;
-	color: #4474ff;
+	color: #3fff6e;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	display: flex;
+	justify-self: left;
 }
 
 .toy {
@@ -16,6 +25,7 @@ a {
 	font-weight: 1000;
 	font-style: normal;
 
+	color: #4474ff;
 	margin: 30px;
 	box-shadow: 5px 10px 20px #1275ad;
 	border: 2px solid aqua;
@@ -41,6 +51,26 @@ a {
 	border-radius: 50px;
 }
 
+.overheader-content {
+	margin: 15px;
+	font-size: 150%;
+}
+
+#overheader {
+	text-align: right;
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	background: #60c5ff;
+}
+
+#overheader p {
+	margin-top: 20px;
+}
+
+#overheader p:hover {
+	text-decoration: underline;
+}
+
 #header {
 	display: flex;
 	justify-content: center;
@@ -62,13 +92,18 @@ a {
 }
 
 #toys-container {
+	margin-top: 60px;
+	text-align: center;
     display: grid;
     grid-template-columns: repeat(3, minmax(100px, 1fr));
     grid-template-rows: auto auto;
     height: 100%;
-    background: linear-gradient(to right, #00fffd, #e540ff);
 }
 
+#toys-container a {
+	text-decoration: none;
+	color: blue;
+}
 
 #see-all {
 	margin-top: 70px;
@@ -105,10 +140,17 @@ a {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     #toys-container {
         grid-template-columns: 1fr;
     }
+}
+
+@media (max-width: 350px) {
+	.toy {
+		width: 250px;
+		height: 260px;
+	}
 }
 
 

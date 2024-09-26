@@ -1,0 +1,14 @@
+body {
+	background: #104aef;
+	color: white;
+}
+
+#button {
+	color: #104aef;
+	background: #104aef;
+	border: 5px solid #104aef;
+	cursor: pointer;
+	position: absolute;
+	height: 125px;
+	width: 125px;
+}

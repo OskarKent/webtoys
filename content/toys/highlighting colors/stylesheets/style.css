@@ -1,0 +1,50 @@
+body {
+	background: radial-gradient(white, yellow);
+	color: skyblue;
+}
+
+#latin1::selection {
+	text-shadow: 5px 10px 5px black;
+	color: lawngreen;
+	background-color: rgba(32, 255, 253, 0.2);
+}
+
+/*firefox selection*/
+#latin1::-moz-selection {
+	text-shadow: 5px 10px 5px black;
+	color: lawngreen;
+	background-color: rgba(32, 255, 253, 0.2);
+}
+
+#latin2::selection {
+	text-shadow: 5px 10px 5px black;
+}
+
+/*firefox selection*/
+#latin2::-moz-selection {
+	text-shadow: 5px 10px 5px black;
+}
+
+#latin3::selection {
+	color: orange;
+	background-color: green;
+}
+
+/*firefox selection*/
+#latin3::-moz-selection {
+	color: orange;
+	background-color: green;
+}
+
+#latin3::selection {
+	color: red;
+}
+
+/*firefox selection*/
+#latin3::-moz-selection {
+	color: red;
+}
+
+
+
+

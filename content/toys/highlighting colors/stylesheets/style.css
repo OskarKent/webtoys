@@ -36,12 +36,12 @@ body {
 	background-color: green;
 }
 
-#latin3::selection {
+#latin4::selection {
 	color: red;
 }
 
 /*firefox selection*/
-#latin3::-moz-selection {
+#latin4::-moz-selection {
 	color: red;
 }
 
